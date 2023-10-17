@@ -1,0 +1,16 @@
+=== python enviroment ===
+poetry --version
+poetry new mysite
+rm -rf myapp/ tests/
+poetry add django
+poetry add djangorestframework
+
+=== project setup ===
+poetry run django-admin startproject tutorial . 
+cd tutorial
+poetry run django-admin startapp quickstart
+cd ..
+
+=== sync database ===
+poetry run ./manage.py migrate
+poetry run ./manage.py createsuperuser
