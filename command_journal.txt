@@ -14,3 +14,5 @@ cd ..
 === sync database ===
 poetry run ./manage.py migrate
 poetry run ./manage.py createsuperuser
+admin
+DQj5qn*PThuSyi$
