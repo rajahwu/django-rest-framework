@@ -10,6 +10,7 @@ python = "^3.9"
 django = "^4.2.6"
 djangorestframework = "^3.14.0"
 pygments = "^2.16.1"
+dj-database-url = "^2.1.0"
 
 
 [build-system]
